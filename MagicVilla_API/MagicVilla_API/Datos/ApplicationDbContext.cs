@@ -9,9 +9,12 @@ namespace MagicVilla_API.Datos
         {
                 
         }
-        public DbSet<Villa> Villas { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //se agregan estas lineas(los dbSet..) para que cuando se haga una migracion se cree una tabla en la base de datos
+        public DbSet<Villa> Villas { get; set; }
+        public DbSet<NumeroVilla> NumeroVillas { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder) //lo reescribi yo
         {
             modelBuilder.Entity<Villa>().HasData(
             new Villa()

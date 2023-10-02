@@ -8,8 +8,12 @@
 
   <ItemGroup>
     <None Remove="appsettings.json~RF27d5c18c.TMP" />
+    <None Remove="Modelos\APIResponse.cs~RF2d308b7c.TMP" />
+    <None Remove="Modelos\Dto\NumeroVillaDto.cs~RF2e696b8e.TMP" />
     <None Remove="Modelos\Villa.cs~RF19252702.TMP" />
     <None Remove="Modelos\Villa.cs~RF1c28f44f.TMP" />
+    <None Remove="Repositorio\IRepositorio\IRepositorio.cs~RF2b182a11.TMP" />
+    <None Remove="Repositorio\IRepositorio\IVillaRepositorio.cs~RF2d0e4262.TMP" />
   </ItemGroup>
 
   <ItemGroup>
